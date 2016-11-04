@@ -1,0 +1,15 @@
+{
+  "name": "tscourse",
+  "version": "1.0.0",
+  "description": "typescrip course",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "thamdavid",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "devDependencies": {}
+}
