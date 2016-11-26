@@ -24,13 +24,13 @@ var animals;
 ;
 var animal = animals.Cat;
 console.log("I have these animals: " + animals[0] + " " + animals[1] + " " + animals[2]);
-function warnUser() {
-    alert("This is my warning message");
-}
 //any
 var list = [1, true, "free"];
+for (var i = 0; i < list.length; i++) {
+    console.log(list[i]);
+}
 list[1] = 100;
-list[2] = "aasf";
+list[2] = "Cars";
 list[0] = 123;
 console.log(list[1] + " " + list[2] + " " + list[0]);
 var someValue = "this is a string";

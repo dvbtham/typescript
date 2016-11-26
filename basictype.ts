@@ -26,20 +26,19 @@ console.log(`Id: ${customer[0]}, Customer name: ${customer[1]}`);
 //enum
 
 enum animals { Dog, Tiger, Cat };
-let animal:animals = animals.Cat
+let animal: animals = animals.Cat
 
 console.log(`I have these animals: ${animals[0]} ${animals[1]} ${animals[2]}`);
 
-function warnUser(): void {
-    alert("This is my warning message");
-}
 //any
 
 
 let list: any[] = [1, true, "free"];
-
+for (let i = 0; i < list.length; i++) {
+    console.log(list[i]);
+}
 list[1] = 100;
-list[2] = "aasf";
+list[2] = "Cars";
 list[0] = 123;
 console.log(`${list[1]} ${list[2]} ${list[0]}`);
 
